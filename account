@@ -1,0 +1,20 @@
+geth --datadir data --networkid 1489 --unlock 0xB0CfbF0659cA9294dfB5253230a74C8fE1F2B1bC --allow-insecure-unlock --http --http.corsdomain="*" --http.api web3,eth,debug,personal,net,miner --miner.etherbase 0x6c9d7fee8a1b1ec54fdcc35dd170fc45c465f472 - запуск чатсной сети блокчейна
+
+
+0x45B4C5659042dDCcAb182412228FB1F8735F7b15 - miner 
+geth account new --datadir data - создание нового аккаунта
+geth init --datadir data genesis.json - создание генезис блока
+
+geth --datadir data --networkid 150220241016 --unlock 0xB0CfbF0659cA9294dfB5253230a74C8fE1F2B1bC --allow-insecure-unlock --http --http.corsdomain="*" --http.api web3,eth,debug,personal,net,miner --miner.etherbase 0x6f9F02bbeE11CA7f8ccffb471C8a7A7fFFB67Cf2 - запуск чатсной сети блокчейна
+geth attach --datadir data ipc:\\.\pipe\geth.ipc - создание отдельной консоли geth для того, чтобы управлять процессами в блокчейне
+    eth.blockNumber - номер блока
+
+    B0CfbF0659cA9294dfB5253230a74C8fE1F2B1bC
+
+
+
+0x3e9BC3Be0D827688009464AC8a3fa49C25623121
+0x46a734facBd112dA10b35D1F9AFDcC366d9785D0
+0x88a8E84d6d436648F6b65EEF3E3E79B4271F4C0A
+0x6e3e7b8a72e3430C836d6bfdf62347eB8F68d327
+0xf0386AB5d9A9A0f790025a23de2993aee02C1aE2
